@@ -1,0 +1,13 @@
+diff --git a/checkout.sh b/checkout.sh
+index 18fba2b..a9dcff1 100755
+--- a/checkout.sh
++++ b/checkout.sh
+@@ -42,7 +42,7 @@
+ # that once buildrump.sh is published, the NetBSD sources will be
+ # available via git.
+ #
+-NBSRC_CVSDATE="20160728 1100UTC"
++NBSRC_CVSDATE="20180401 0436UTC"
+ NBSRC_CVSFLAGS="-z3"
+ 
+ # If set, timestamp for src/sys/rump/listsrcdir.  If unset,

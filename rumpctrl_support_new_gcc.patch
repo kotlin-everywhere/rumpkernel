@@ -1,0 +1,14 @@
+diff --git a/buildnb.sh b/buildnb.sh
+index 4a401d9..955f3d7 100755
+--- a/buildnb.sh
++++ b/buildnb.sh
+@@ -139,6 +139,9 @@ mkdir -p hostlib/lib
+ 	    && ${RUMPMAKE} MKMAN=no install
+ )
+ 
++export CFLAGS='-w'
++export LDFLAGS='-no-pie'
++
+ # set rumpmake
+ RUMPMAKE=$(pwd)/rumptools/rumpmake
+ appendconfig RUMPMAKE
